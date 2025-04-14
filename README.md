@@ -16,7 +16,6 @@ A simple web application built with Vue.js that extracts the Design ID from a Ca
 - **Vue.js**: A JavaScript framework for building user interfaces.
 - **HTML5**: For structuring the content of the web page.
 - **CSS3**: For styling the page and making the design responsive.
-- **Responsive Design**: The design is fully responsive, optimized for desktop and mobile views.
 
 ## How It Works
 
@@ -37,3 +36,55 @@ To run this project locally, you’ll need:
 
    ```bash
    git clone https://github.com/dixitcoder/canva-design-id-extractor.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd canva-design-id-extractor
+   ```
+
+3. Open the `index.html` file in your web browser to run the application locally.
+
+## Usage
+
+- Paste your Canva design URL into the input field.
+- Click the **"Extract Design ID"** button to display the embedded Canva design preview.
+
+⚠️ **Important:**  
+To ensure your Canva design displays correctly in the embedded view:
+
+> 👉 **In Canva, click “Share” → Select “More” → Choose “Anyone with the link” → Set it to “View”**.  
+> ✅ Only then copy the URL and paste it in the app.  
+> ❌ If the design is set to private or restricted, it **won’t be shown** in the iframe.
+
+## Example
+
+Here’s an example of a valid Canva URL:
+
+```
+https://www.canva.com/design/ABC123456789/view?utm_content=ABC123456789&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+```
+
+Once the Design ID is extracted, the design will appear below the input field.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-xyz`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-xyz`).
+5. Open a pull request.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+## Contact
+
+Feel free to reach out via the following links:
+
+- Instagram: [@dixitcoder](https://www.instagram.com/dixitcoder)
+- GitHub: [dixitcoder](https://github.com/dixitcoder)
+- LinkedIn: [dixitcoder](https://www.linkedin.com/in/dixitcoder)
+- Twitter: [@dixitcoder](https://twitter.com/dixitcoder)
